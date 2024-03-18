@@ -20,7 +20,7 @@ goto custom_exit
 :Grub
 kernel https://raw.githubusercontent.com/Last-Hub-vode/netboot.xyz-custom/master/grub.exe
 # initrd http://path.to/initrd
-imgargs vmlinuz put_kernel_img_args_here
+imgargs grub put_kernel_img_args_here
 boot || goto custom_exit
 
 :SuperDos
