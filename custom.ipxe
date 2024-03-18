@@ -7,7 +7,7 @@
 clear custom_choice
 menu Grub menu
 item --gap This is the first sub menu
-item grub ${space} Grub
+item Grub ${space} Load Grub
 item SuperDos ${space} Loading an ISO
 item --gap This is a second sub menu
 item option_three ${space} Loads another custom sub menu
