@@ -18,7 +18,7 @@ goto ${custom_choice}
 goto custom_exit
 
 :Grub
-kernel https://raw.githubusercontent.com/Last-Hub-vode/netboot.xyz-custom/master/grub.exe
+kernel http://raw.githubusercontent.com/Last-Hub-vode/netboot.xyz-custom/master/grub.exe
 # initrd http://path.to/initrd
 boot || goto custom_exit
 
